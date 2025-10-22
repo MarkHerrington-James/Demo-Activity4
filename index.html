@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q1 Project - My Personal Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #b6b8f3;
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 4px solid #8d8fe0;
+    }
+
+    header img {
+      width: 120px;
+      border-radius: 50%;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin-top: 10px;
+    }
+
+    header h1 span {
+      color: #2c2c8f;
+      font-weight: bold;
+    }
+
+    nav {
+      background-color: #222;
+      padding: 10px;
+      text-align: right;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      width: 80%;
+      margin: 30px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      background-color: #b6b8f3;
+      color: #222;
+      text-align: center;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    .works img {
+      width: 100%;
+      max-width: 600px;
+      border: 2px dashed #aaa;
+      border-radius: 10px;
+      display: block;
+      margin: 10px auto;
+    }
+
+    form {
+      width: 90%;
+      margin: auto;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    form button {
+      background-color: #2c2c8f;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #4e50d4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #b6b8f3;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#works">My Works</a>
+    <a href="#contact">Contact Me</a>
+  </nav>
+
+  <header>
+    <img src="Lebron James.JPG">
+    <h1>Hello, I'm <span>Jane Doe</span></h1>
+    <p>Aspiring Web Developer</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! im Mark Anthony Herrington, a student with passion to learn and also curious about things.</p>
+  </section>
+
+  <section id="works" class="works">
+    <h2>My Works</h2>
+
+    <img src="ROBOT.PNG">
+    <p>My Personal Slambook</p>
+    <ul>
+      <li>✓ HTML & CSS Projects</li>
+      <li>✓ Personal Blog</li>
+      <li>✓ School Portfolio</li>
+    </ul>
+
+    <img src="ROBOT.PNG" alt="ROBOT">
+    <p>My Top 3 Best Movies</p>
+    <ul>
+      <li>✓ HTML Lists and Images</li>
+      <li>✓ Simple Web Pages</li>
+      <li>✓ Creative Layouts</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label>Your Name:</label>
+      <input type="text" placeholder="Mark Anthony">
+
+      <label>Your Email:</label>
+      <input type="email" placeholder="Mark Anthony Herrington">
+
+      <label>How did you find me?</label>
+      <div>
+        <input type="radio" name="source"> Facebook
+        <input type="radio" name="source"> Google
+        <input type="radio" name="source"> Friends
+      </div>
+
+      <label>Services Interested In:</label><br>
+      <input type="checkbox"> Web Design
+      <input type="checkbox"> Graphic Design
+      <input type="checkbox"> Robotics
+
+      <label>Rate my Portfolio:</label>
+      <select>
+        <option>- Select Rating -</option>
+        <option>Excellent</option>
+        <option>Good</option>
+        <option>Average</option>
+        <option>Poor</option>
+      </select>
+
+      <label>Any Feedback?</label>
+      <textarea placeholder="Feedback here..."></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Mark Anthony Herrington | My Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
